@@ -164,7 +164,9 @@
   }
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 .profile-pic {
   width: 120px;
