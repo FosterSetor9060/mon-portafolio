@@ -334,7 +334,7 @@ nav ul li a{
   margin-bottom: 20px; 
 } 
 
-.download-button {
+ .download-button {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -344,7 +344,39 @@ nav ul li a{
   padding: 10px 16px;
   border-radius: 6px;
   font-weight: bold;
+} 
+
+.button-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    width: 48px; /* Adjust size */
+    height: 48px;
+    border-radius: 50%;
+    /* border: 2px solid #ccc; */
+    transition: background 0.2s, transform 0.2s;
 }
+
+.button-icon:hover {
+    background: rgba(0, 0, 0, 0.1);
+    transform: scale(1.1);
+}
+
+.button-icon a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.button-icon svg {
+    color: #333;
+    width: 24px;
+    height: 24px;
+}
+ 
 
 .download-button:hover {
   background-color: #0056b3;
@@ -353,7 +385,7 @@ nav ul li a{
 
 
 .download-btn i {
-  font-size: 18px;
+  font-size: 30px;
 }
 
 /* Social Links */
@@ -362,6 +394,7 @@ nav ul li a{
   justify-content: center;
   align-items: center;
   gap: 15px;
+  background-color: #007bff;
 }
 
 .social-link {
