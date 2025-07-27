@@ -591,6 +591,17 @@ html {
   border-radius: 5px;
 }
 
+.cloud-portfolio {
+  background-color: #f9f9f9;
+}
+
+.cloud-portfolio h2 {
+  font-weight: bold;
+}
+
+.cloud-portfolio iframe {
+  border-radius: 12px;
+}
 
 
 /* Contact Section */
